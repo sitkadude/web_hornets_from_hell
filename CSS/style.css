@@ -1,0 +1,89 @@
+html {
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #dedede;
+    box-sizing: border-box;
+    background-color: black;
+}
+/* Universal Selectors */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Type-Selectors */
+body {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.5;
+    background-color: black;
+}
+h1 {
+    width: 80%;
+    margin: 2rem auto;
+    text-align: left;
+    color: gold;
+}
+h2 {
+    font-size: 1.5rem;
+    color: #dedede;
+}
+h3 {
+    font-size: 1.2rem;
+    color: #dedede;
+}
+p {
+    font-size: 1.5rem;
+    color: #dedede;
+    text-align: center;
+}
+/* -- Wrapper / Clearfix -- */
+.wrapper {
+    width:95%;
+    margin: 0 auto;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.background {
+/* background-color: white; */
+color: #dedede
+}
+.header-container {
+    padding-top: 3rem 0;
+    margin-top: 3rem;
+    border-bottom: 5px solid #dedede
+}
+.main-container {
+
+}
+.footer-container {
+    padding: 1rem 0;
+}
+.hornet-logo {
+    fill: gold;
+    width: 20rem;
+    height: auto;
+}
+.hover-line {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: .2rem;
+    font-size: 2.5rem;
+    padding-bottom: 3rem;
+    color: gold;
+}
+.section-content {
+    padding: 1rem 0;
+    border-bottom: 5px solid #dedede
+}
+.p-content {
+    width: 80%;
+    margin: 2rem auto;
+    text-align: left;
+}
+.copyright {
+    color: gold;
+}
