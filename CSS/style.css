@@ -82,6 +82,9 @@ color: #dedede
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: red;
 }
+.italics {
+    font-style: italic;
+}
 .section-content {
     padding: 1rem 0;
     border-bottom: 5px solid #dedede
