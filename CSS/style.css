@@ -3,7 +3,7 @@ html {
     line-height: 1.4;
     color: #dedede;
     box-sizing: border-box;
-    background-color: black;
+    background-color: white;
 }
 /* Universal Selectors */
 *, *:before, *:after {
@@ -16,25 +16,25 @@ body {
     font-size: 1.2rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 1.5;
-    background-color: black;
+    background-color: white;
 }
 h1 {
     width: 80%;
     margin: 2rem auto;
     text-align: left;
-    color: gold;
+    color: goldenrod;
 }
 h2 {
     font-size: 1.5rem;
-    color: #dedede;
+    color: black;
 }
 h3 {
     font-size: 1.2rem;
-    color: #dedede;
+    color: black;
 }
 p {
     font-size: 1.5rem;
-    color: #dedede;
+    color: black;
     text-align: center;
 }
 path {
@@ -76,7 +76,7 @@ color: #dedede
     letter-spacing: .2rem;
     font-size: 2.5rem;
     padding-bottom: 3rem;
-    color: goldenrod;
+    color: black;
 }
 .hell {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -95,5 +95,5 @@ color: #dedede
     text-align: left;
 }
 .copyright {
-    color: goldenrod;
+    color: black;
 }
